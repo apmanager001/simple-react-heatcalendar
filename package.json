@@ -1,19 +1,18 @@
 {
   "name": "simple-react-heatcalendar",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": "apmanager001",
   "type": "module",
   "license": "MIT",
   "files": [
     "dist",
-    "assets",
     "README.md"
   ],
   "main": "./dist/heatCalendar.cjs.js",
   "module": "./dist/heatCalendar.es.js",
   "exports": {
     ".": {
-      "imports": "./dist/heatCalendar.es.js",
+      "import": "./dist/heatCalendar.es.js",
       "require": "./dist/heatCalendar.cjs.js"
     }
   },
@@ -25,6 +24,19 @@
     "preview": "vite preview",
     "publish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apmanager001/simple-react-heatcalendar"
+  },
+  "keywords": [
+    "calendar",
+    "heatmap",
+    "component",
+    "react",
+    "custom",
+    "year",
+    "month"
+  ],
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

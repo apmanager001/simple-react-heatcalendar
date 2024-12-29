@@ -1,10 +1,38 @@
+<!-- ![NPM Downloads](https://img.shields.io/npm/dw/%40apmanager001%2Fsimple-react-heatcalendar) -->
+![npm bundle size](https://img.shields.io/bundlephobia/min/simple-react-heatcalendar)
 # Simple React HeatCalendar 
 This package provides a simple and customizable calendar component for React applications. It allows you to customize color throughout the component and pass values to fill color on select dates. Most heat maps display the full year. This allows you to display a month at a time. It also is responsive for mobile.
+### Benefits
+- Functional Calendar that allows you to move by year and months
+- Day of the week are accurate 
+- Pass the value prop to change color of specific dates
+- Change color of everything on the calendar with props
+
+## Examples of the component
+
+<div style="display: flex; justify-content: space-around"> <img src="https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/basic.jpg?raw=true" width="300" alt='image of component'/> <img src="https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/custom.jpg?raw=true" width="300" alt='image of component'/>
+</div>
+
 ## Installation 
 ```npm install simple-react-heatCalendar```
 
 ## import the component after install
-```import {Calendar} from '@heatCalendar'```
+```import {Calendar} from 'simple-react-heatcalendar'```
+
+```
+const value = [
+    {
+      day: "2024-12-31",
+    },
+    {
+      day: "2024-12-30",
+    },
+    {
+      day: "2024-12-28",
+    },
+  ];
+```
+
 ```
 <Calendar 
     topLabelColor={'green'}
@@ -26,11 +54,6 @@ This package provides a simple and customizable calendar component for React app
     dateColor={'purple'}
 />
 ```
-
-## Examples of the component
-
-![image of component](https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/basic.jpg?raw=true)
-![image of component](https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/custom.jpg?raw=true)
 
 ## Props that can be passed to the component
 
