@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Calendar} from '../lib/main.js'
+import {Calendar} from '@heatCalendar'
 
 function App() {
   const value = [

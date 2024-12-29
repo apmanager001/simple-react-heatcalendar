@@ -29,8 +29,8 @@ This package provides a simple and customizable calendar component for React app
 
 ## Examples of the component
 
-![image of component](./assets/basic.jpg)
-![image of component](./assets/custom.jpg)
+![image of component](https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/basic.jpg?raw=true)
+![image of component](https://github.com/apmanager001/simple-react-heatcalendar/blob/main/assets/custom.jpg?raw=true)
 
 ## Props that can be passed to the component
 
