@@ -1,5 +1,7 @@
-<!-- ![NPM Downloads](https://img.shields.io/npm/dw/%40apmanager001%2Fsimple-react-heatcalendar) -->
+![NPM Version](https://img.shields.io/npm/v/simple-react-heatcalendar)
+![NPM Downloads](https://img.shields.io/npm/dw/simple-react-heatcalendar)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/simple-react-heatcalendar)
+
 # Simple React HeatCalendar 
 This package provides a simple and customizable calendar component for React applications. It allows you to customize color throughout the component and pass values to fill color on select dates. Most heat maps display the full year. This allows you to display a month at a time. It also is responsive for mobile.
 ### Benefits

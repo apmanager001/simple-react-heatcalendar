@@ -1,5 +1,6 @@
 {
   "name": "simple-react-heatcalendar",
+  "private": "false",
   "version": "0.0.4",
   "author": "apmanager001",
   "type": "module",
