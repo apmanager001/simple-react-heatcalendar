@@ -6,6 +6,7 @@ import { Forward, Reverse } from "./buttons.jsx";
 const Calendar = ({
   fontSize,
   dateColor,
+  removeTopBorder,
   selectedColor,
   fontLabelColor,
   value = [{}],
@@ -94,7 +95,7 @@ const Calendar = ({
             gap: "1rem",
             margin: "1.5rem",
             width: "24rem",
-            borderWidth: "1px",
+            borderWidth: removeTopBorder ? "1px" : "0px",
             borderColor: "#6B7280",
             padding: "0.5rem",
             borderRadius: "9999px",
@@ -136,7 +137,7 @@ const Calendar = ({
             gap: "1rem",
             marginBottom: "1.5rem",
             width: "24rem",
-            borderWidth: "1px",
+            borderWidth: removeTopBorder ? "1px" : "0px",
             borderColor: "#6B7280",
             padding: "0.5rem",
             borderRadius: "9999px",
@@ -194,7 +195,7 @@ const Calendar = ({
                 padding: ".5rem",
               }}
             >
-              {removeLabelDays !== false ? day: ''}
+              {removeLabelDays !== false ? day : ""}
             </div>
           ))}
         </div>
@@ -221,7 +222,9 @@ const Calendar = ({
                 style={{
                   backgroundColor: isValueDate
                     ? selectedColor || "#00ab66"
-                    : calendarDayColor ? calendarDayColor : "inherit",
+                    : calendarDayColor
+                    ? calendarDayColor
+                    : "inherit",
                   borderRadius: roundedCalendar ? roundedCalendar : 12,
                   borderWidth:
                     calendarBorder && date ? borderWidth : date ? 1 : 0,

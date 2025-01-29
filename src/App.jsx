@@ -19,23 +19,8 @@ function App() {
   return (
     <div className="flex justify-center">
       <Calendar 
-        // topLabelColor={'green'}
-        // fontLabelColor={"yellow"}
-        // borderColor={'green'}
-        // borderWidth={.25}
-        // buttonSize={32}
-        // calendarGap={4}
-        // calendarPadding={20}
-        // roundedCalendar={12}
-        // labelBackground={'black'} 
-        // calendarBackground={'black'}
-        // calendarDayColor={'lightblue'}
-        // calendarBorder={true}
-        // removeLabelDays={true}
-        // removeDates={true}
-        // selectedColor={'red'} 
         value={value}
-        // dateColor={'purple'}
+        removeTopBorder={false}
       />
     </div>
   );
